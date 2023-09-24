@@ -1,0 +1,30 @@
+[
+    {
+        "entity": "Name of the school or company",
+        "title": "Course name / Job position",
+        "description": "Short description about the company or the course. No more than five lines of text.",
+        "period": "Month YYYY - Month YYYY",
+        "technologiesSkills": ["Technology", "Or", "Skill"]
+    },
+    {
+        "entity": "Name of the school or company",
+        "title": "Course name / Job position",
+        "description": "Short description about the company or the course. No more than five lines of text.",
+        "period": "Month YYYY - Month YYYY",
+        "technologiesSkills": ["Technology", "Or", "Skill"]
+    },
+    {
+        "entity": "Name of the school or company",
+        "title": "Course name / Job position",
+        "description": "Short description about the company or the course. No more than five lines of text.",
+        "period": "Month YYYY - Month YYYY",
+        "technologiesSkills": ["Technology", "Or", "Skill"]
+    },
+    {
+        "entity": "Name of the school or company",
+        "title": "Course name / Job position",
+        "description": "Short description about the company or the course. No more than five lines of text.",
+        "period": "Month YYYY - Month YYYY",
+        "technologiesSkills": ["Technology", "Or", "Skill"]
+    }
+]

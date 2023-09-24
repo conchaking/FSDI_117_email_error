@@ -1,0 +1,59 @@
+header {
+    background-color: var(--header-color);
+    height: 60px;
+}
+
+/* Left side: Logo*/
+
+.logo {
+    width: 20%;
+}
+
+img {
+    width: 3.5rem;
+    /*14 * 3.5 = 49px*/
+}
+
+/*Right side: Nav*/
+nav {
+    height: 100%;
+    width: 80%;
+}
+
+.nav-btn span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: var(--neutral-color);
+    margin: 6px auto;
+}
+
+#nav-check, .nav-btn {
+    display: none;
+}
+
+.nav-link {
+    height: 100%;
+}
+
+.nav-link a{
+    margin: 2%;
+    padding: 1% 2%;
+    color: var(--neutral-color);
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.nav-link a:hover {
+    background-color: var(--background-color);
+    border-bottom: solid 2px var(--accent-color);
+}
+
+label {
+    cursor: pointer;
+}
+/*------------------RESPONSIVE DESIGN------------/*
+
+
+/*Mobile view*/

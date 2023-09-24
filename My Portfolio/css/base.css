@@ -1,0 +1,55 @@
+/*Variables 
+Styles that we can use/reuse*/
+:root {
+    --background-color: #011C32;
+    --header-color: #01223D;
+    --accent-color: #05D939;
+    --accent-color-shade: #025834;
+    --neutral-color: #e0e0e0;
+
+    --mono-font: 'DM Mono', monospace;
+    --sans-font: 'DM Sans', sans-serif;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*General style
+Style that can be applied to all the html or all the elements*/
+
+html {
+    font-size: 14px;
+    background-color: var(--background-color);
+}
+
+* {
+    font-family: var(--sans-font);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Text style*/
+
+h1 {
+    color: var(--neutral-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+    /*16px
+    16px * 2 = 32px*/
+}
+
+h2 {
+    color: var(--accent-color);
+    font-family: var(--mono-font);
+    font-weight: 400;
+}
+
+p {
+    color: var(--neutral-color);
+    font-size: 1.1rem;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+        href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800&display=swap" 
+        rel="stylesheet">"
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/sections.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <title>My name | Frontend Developer</title>
+</head>
+
+<body>
+
+    <header class="center">
+        <!-- Left Side-->
+        <div class="logo center">
+            <a href="">
+                <img src="/img/logo.jpg" alt="">
+            </a>
+        </div>
+        <!--Right Side-->
+        <nav>
+
+            <input type="checkbox" id="nav-check">
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+            <div class="nav-link center">
+                <a href="#">About me</a>
+                <a href="#">Projects</a>
+                <a href="#">Experience</a>
+                <a href="#">Contract</a>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section class="about-section">
+
+        <div class="img-container center">
+            <img id="about-img" src="/img/logo-png.png" alt="">
+        </div>
+
+        <div class="description-container center">
+            <div class="center" style="flex-direction: column;">
+        <h1>Someend Developer</h1>
+        <h2>My fancy name here</h2>
+        </div>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque in consectetur enim voluptate itaque quos molestias, at facilis repudiandae ab. Obcaecati, <br><br> nihil esse quae veniam quod ea dolor ratione unde!</p>
+
+        <div class="skills-list center">
+            <h2>Skills</h2>
+
+            <div class="skills center">
+                <label>Skill</label>
+                <label>Skill</label>
+                <label>Skill</label>
+                <label>Skill</label>
+                <label>Skill</label>
+                <label>Skill</label>
+                <label>Skill</label>
+                <label>Skill</label>
+                <label>Skill</label>
+                <label>Skill</label>
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+    
+    <section class="projects-section center">
+            <h2>Projects</h2>
+
+            <div id="projects-list">
+               
+            </div>
+    </section>
+
+    <section class="experience-section center">
+        <h2>Experience/Education</h2>
+
+        <div id="experiences-list">
+
+        </div>
+    </section>
+
+    <section class="contact-section center">
+        <h2>Contact me</h2>
+
+        <form id="emailForm">
+
+            <input type="text" id="name" placeholder="Name" required> <br>
+            <input type="email" id="email" placeholder="Email" required> <br>
+            <input type="text" id="subject" placeholder="Subject"> <br> <!--Notices this is not required -->
+            <textarea id="message" rows="4" placeholder="Message" required> </textarea><br>
+
+            <div class="form-buttons">
+                <button class="primary-button" type="submit">Send Email</button>
+                <button class="secondary-button" type="button">Reset</button>
+            </div>
+
+
+        </form>
+
+
+    </section>
+
+    <footer class="center">
+        <h2>My fancy name here</h2>
+
+        <div class="logo center">
+            <a href="">
+                <img src="/img/logo.jpg" alt="">
+            </a>
+        </div>
+
+        <nav class="center">
+            <a href="#">About me</a>
+            <a href="#">Projects</a>
+            <a href="#">Experiences</a>
+            <a href="#">Contacts</a>
+        </nav>
+
+    </footer>
+    
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script> <!-- This is the EmailJS library -->
+    <script src="./js/email.js"></script>
+</body>
+
+</html>
